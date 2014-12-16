@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : Mckeane Thomas
+*/
+
+
+#heading{
+  color: grey;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+#myForm {
+background-color: yellowgreen;
+margin:auto;
+position:relative;
+width:300px;
+height:250px;
+font-family: Tahoma;
+font-size: 14px;
+line-height: 24px;
+font-weight: bold;
+color: black;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+border: 1px solid #333;
+}
+
+label{
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#password    {
+margin-bottom: 10px;
+width:270px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+}
+
+#username    {
+margin-bottom: 10px;
+width:270px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+}
+
+#login    {
+margin-bottom: 10px;
+width:50px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+}

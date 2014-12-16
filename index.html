@@ -1,0 +1,38 @@
+<!--User login page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cheapo-Mail</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel = "stylesheet" type = text/css href ="loginstyle.css">
+        <script type = text/javascript src = validateUser.js></script>
+        <script src = "//ajax.googleapis.com/ajax/libs/prototpe/1.7.1.0/prototype.js"></script>
+    </head>
+    <body>
+             
+        <!--instructs the user to give username and password to login into the system-->
+		
+        <div id ="heading">
+            <h2>Cheapo Mail</h2>
+            <h3>Username and Password Required for using our simple mail</h3>
+			
+			
+        </div>    
+			
+        <form id ="myForm" action="action.php?a=login" name="loginform" method ="post" onsubmit="return validateForm();">
+                <div id ="myForm1">
+                    <label>
+                        <span>Username:</span>
+                        <input id ="username" type="text" name ="username" placeholder ="username">
+                    </label>
+                    <label>
+                        <span>Password:</span>
+                        <input id="password" type ="password" name ="password" placeholder ="password">
+                    </label>
+                 </div>
+                    <input id ="login" type="submit" value="Login">
+                
+            </form>        
+        
+    </body>
+</html>

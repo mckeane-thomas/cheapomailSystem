@@ -1,0 +1,46 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register User</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="validateUser.js" type="text/javascript"></script>
+        <link rel="stylesheet" type = text/css href = newuser.css>
+    </head>
+    <body>
+	
+        <h1>Register User</h1>
+        <h3>Register user in the form below Or</h3>
+        <h3><a href="inbox.php"> Return To Inbox</a></h3>
+        
+	<div id = "content">
+       <form action ="action.php?a=register" method="post" name="createUserForm" onsubmit ="return validateForm()">
+        <fieldset>
+            <legend>Create New User Account</legend>
+                <label class ="fLabel">First Name:</label>
+                <input id="fname" type="text" name ="f_name" size ="40"/><br />
+			<br />
+                <label class ="fLabel">Last Name:</label>
+                <input id="lname" type ="text" name ="l_name" size ="40"><br />
+			<br />
+                <label class ="fLabel"> User Name:</label>
+                <input id ="userName" type ="text" name ="user_name" size ="40"/><br />
+			<br />
+                <label class ="fLabel">Password: </label>
+                <input id="pwd" type ="password" name="user_pwd" size ="40"/><br />
+			<br />
+			
+                <input type ="submit" name ="submit" value ="Create User"/><br />
+			<br />	
+		<button id="cancel">Cancel</button>
+             </fieldset>
+           </form>
+
+        </div>
+       
+	   
+    </body>
+</html>
